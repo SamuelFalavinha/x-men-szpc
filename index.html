@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men - Semana do Zero Ao Programador Contratado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um Personagem</h1>
+            <ul class="lista-de-personagens">
+            <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ciclope tem o poder de disparar rajadas ópticas
+            por conta de um acidente que ocorreu com ele na sua infância, porém, não consegue controlá-los.">
+                <img src="./src/imagens/card-ciclope.jpg" alt="Ciclope">
+            </li>
+            <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Gray é uma mutante nível ômega e o principal avatar de Força Fênix, no qual manifesta poderes cósmicos, A Telepatia e Telecinese.">
+                <img src="./src/imagens/card-jean-grey.jpg" alt="Jean Grey">
+            </li>
+            <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Lince Negra tem o poder de atravessar matéria sólida, campos de energia, rajadas ópticas, continuando intacta. E também possui o poder da levitação.">
+                <img src="./src/imagens/card-lince-negra.jpg" alt="Lince Negra">
+            </li>
+            <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tempestade tem o poder de controlar as forças da natureza, sendo muito poderoza a ponto de controlar raios, chuvas, ventos, neblina, entre outras diversas forças da natureza.">
+                <img src="./src/imagens/card-tempestade.jpg" alt="Tempestade">
+            </li>
+            <li class="personagem" id="vampira" data-name="Vampira" data-description="Vampira tem o poder de roubar as habilidades da pessoa em que ela tocar, não só as habilidades como memórias e força física, e, se caso for um mutante, roubará seus poderes também, porém por um período limitado de tempo, e causa fortes dores de cabeça.">
+                <img src="./src/imagens/card-vampira.jpg" alt="Vampira">
+            </li>
+            <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Wolverine tem a Habilidade de se regenerar, possui um esqueleto substituido por titânio e também poussui a habilidade de se armar com duas garras de 3 lâminas em cada mão.">
+                <img src="./src/imagens/card-wolverine.jpg" alt="Wolverie">
+            </li>
+            <li class="personagem" id="noturno" data-name="Noturno" data-description="Noturno tem a habilidade de se teleportar por uma lonjura limitada, uma ailidade sobre-hmana, anadar nas paredes e se tornar invisível em sombras profundas.">
+                <img src="./src/imagens/card-noturno.jpg" alt="Noturno">
+            </li>
+            <li class="personagem" id="magneto" data-name="Magneto" data-description="Magneto pode interagir com qualquer coisa que possua metal, podendo a contorcer, levantar e desintegrar coisas apenas com o poder da telesinese.">
+                <img src="./src/imagens/card-magneto.jpg" alt="Magneto">
+            </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ciclope tem o poder de disparar rajadas ópticas
+                    por conta de um acidente que ocorreu com ele na sua infância, porém, não consegue controlá-los.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
+<!-- Alt + L + O (Live Server)-->
